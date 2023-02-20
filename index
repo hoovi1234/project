@@ -1,0 +1,8 @@
+let inputText;
+
+document.getElementById("buttonID").onclick = function(){
+  // Put your code here in the function (what you want to do when the button is clicked)
+  // My code:
+  inputText = document.getElementById("textInputId").value;
+  document.getElementById("textID").innerHTML = inputText;
+}
